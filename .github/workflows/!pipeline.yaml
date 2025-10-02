@@ -51,4 +51,4 @@ jobs:
               run: npm install
 
             - name: Ran tests
-              run: npm
+              run: npm run test
