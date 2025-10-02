@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer base {
+    button {
+        @apply cursor-pointer;
+    }
+}
+
+@layer components {
+    .add-btn {
+        @apply px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500  transition-colors duration-200;
+    }
+}
+
+@layer utilities {
+    .background-img {
+        background: url("https://cdn.pixabay.com/photo/2018/08/15/13/10/new-year-background-3608029_1280.jpg")
+            center / cover no-repeat;
+    }
+}
