@@ -32,7 +32,7 @@ export const App = () => {
             <div className="max-w-[900px] mx-auto">
                 <div className="bg-gray-900/50 backdrop-blur-md shadow-xl rounded-xl p-6 border border-gray-700">
                     <h1 className="text-3xl font-bold text-center text-white mb-6">
-                        📝 Todoアプリ
+                        Todoアプリ
                     </h1>
 
                     <div className="flex gap-2 mb-6">
